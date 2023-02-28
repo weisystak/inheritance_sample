@@ -11,6 +11,6 @@ public:
     void cross_road();
     void talk() const override;
 
-    // private:
-    const int roads_crossed = 10;
+private:
+    int roads_crossed;
 };
